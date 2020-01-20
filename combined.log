@@ -1,0 +1,11 @@
+{"level":"info","message":"Server running on  http://localhost:3000","meta":{"server":"http://localhost:3000"},"service":"node-app"}
+{"level":"info","message":"Hello said here with context: undefined","meta":{"correlation-id":"e3ff24d2-7355-4a6a-8717-0076724388ba","path":"/hello","method":"get"},"service":"node-app"}
+{"level":"info","message":"Hello said here with context: undefined","meta":{"correlation-id":"afb43d8f-579f-43e0-91ed-4e9ae51f074a","path":"/hello","method":"get"},"service":"node-app"}
+{"level":"info","message":"Server running on  http://localhost:3000","meta":{"server":"http://localhost:3000"},"service":"node-app"}
+{"level":"info","message":"Server running on  http://localhost:3000","meta":{"server":"http://localhost:3000"},"service":"node-app"}
+{"level":"info","message":"Hello said here with context: undefined","meta":{"correlation-id":"e672ae16-9ef3-4ca3-832d-5104838b8673","path":"/hello","method":"get"},"service":"node-app"}
+{"level":"info","message":"Hello said here with context: undefined","meta":{"correlation-id":"7159d57f-e2f5-4df2-abb9-a0d9d37a7af9","path":"/hello","method":"get"},"service":"node-app"}
+{"level":"info","message":"Hello said here with context: undefined","meta":{"correlation-id":"9d1ef79d-5912-4a50-9247-31317ccd04be","path":"/hello","method":"get"},"service":"node-app"}
+{"level":"info","message":"Hello said here with context: undefined","meta":{"correlation-id":"77c5ea53-ea41-4b70-80e1-32badb3b78d6","path":"/hello","method":"get"},"service":"node-app"}
+{"level":"info","message":"Hello said here with context: undefined","meta":{"correlation-id":"c518a375-4626-4195-b752-f49bb140c88a","path":"/hello","method":"get"},"service":"node-app"}
+{"level":"info","message":"Server running on  http://localhost:3000","meta":{"server":"http://localhost:3000"},"service":"node-app"}

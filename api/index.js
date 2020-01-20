@@ -1,5 +1,6 @@
 'use strict';
 
+const apm = require('./apm-agent');
 const logger = require('./logging');
 
 const Hapi = require('@hapi/hapi');
@@ -41,6 +42,12 @@ const init = async () => {
           message: `Hello said here with context: ${request.uuid}`,
           meta: { 'correlation-id': correlationId, path: request.path, method: request.method }
         });
+        apm.addLabels({ 'request-url': '/byebye' });
+        apm.setUserContext({
+        id: correlationId,
+        username: 'test-user',
+        email: 'test-user@rapido.bike',
+      });
         return h.response('Hello World =]')
                 .header('Access-Control-Allow-Origin', 'http://localhost:4200')
                 .header('x-correlation-id', correlationId)
